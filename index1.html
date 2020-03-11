@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: white;
+  color: white;
+  padding: 2px 2px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 650px;
+}
+.textbox{
+  width: 300px;
+  height: 40px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<body style="background-color: floralwhite;">
+ 
+  
+
+  <div style="background-color: darkslategray; height: 60px; width: 1420px;">
+    <img src="Logo_Dashboard.png" style="height: 60px; width: 150px;">
+  </div>
+  <div style="margin-top: 30px;">
+    
+    <label for="search"><b>Search Cluster</b></label>
+    <input class="textbox" type="text" placeholder="Search Cluster">
+    <button type="submit" style="height: 40px; width: 200px; margin-left: 160px; margin-left: 100px; background-color: #4CAF50;  border-radius: 4px;"><b>Search</b></button><br>
+  </div>
+
+<div style="margin-top: 60px">
+<table>
+  <tr>
+    <th>Cluster name</th>
+    <th>Platform</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href='page2.html'>reflex003</a></td>
+    <td>2.6.5</td>
+    <td>test</td>
+  </tr>
+  <tr>
+    <td><a href="#">reflex002</a></td>
+    <td>2.6.5</td>
+    <td>test1</td>
+  </tr>
+</table>
+</div>
+<a href='addcluster.html'><img class="open-button" src="plus_icon.png"></a>
+
+
+<div style="background-color: darkslategray; height: 30px; width: 1420px; margin-top: 460px;">
+    </div>
+
+</body>
+</html>
